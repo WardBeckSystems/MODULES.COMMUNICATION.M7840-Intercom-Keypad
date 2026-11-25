@@ -1,5 +1,5 @@
 # 19xx - M7840 - DOC - SECTIONS CROSSPOINT CROSSPOINT NORVALLY OFF SWITCHED.jpg
-Wiki page: [Documents](../../../PAGES/Documents.md)
+Wiki page: [Documents](../../../../PAGES/Documents.md)
 
 
 - **Year:** unknown (unknown)
@@ -116,7 +116,7 @@ Sto]
 
 ```json
 {
- "file": "Modules/COMMUNICATION/M7840/19xx - M7840 - DOC - SECTIONS CROSSPOINT CROSSPOINT NORVALLY OFF SWITCHED.jpg",
+ "file": "Modules/COMMUNICATION/M7840/MANUALS/19xx - M7840 - DOC - SECTIONS CROSSPOINT CROSSPOINT NORVALLY OFF SWITCHED.jpg",
  "sha256": "b0179f081431e70dc0ed5147710940e2b1f36c5c8cd75cef0d7aef14a2669c1d",
  "kind": "doc",
  "models": [
