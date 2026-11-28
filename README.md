@@ -4,13 +4,12 @@ Ward-Beck Systems M7840, 1989|22. Wiki page: [M7840 on WBSps.ca](https://wardbec
 
 | Folder | What is in it | Files |
 |---|---|---|
-| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 5 |
-| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 12 |
-| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 2 |
-| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 2 |
-| [PHOTOS/](PHOTOS/) | photographs of the module | 4 |
-| [SOFTWARE/](SOFTWARE/) | program listings, firmware, the plugin | 1 |
-| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 3 |
+| [SCHEMATICS/](SCHEMATICS/) | electrical drawings: schematics, functional diagrams, component layouts, wiring | 4 |
+| [MECHANICAL/](MECHANICAL/) | front panels, cover plates, metalwork, assemblies; the front panel as vectors | 11 |
+| [PINOUTS/](PINOUTS/) | the RTO-144 connector: connection sheets, connector layouts, rear views | 1 |
+| [MANUALS/](MANUALS/) | manuals, manual pages, price lists, brochures, documents | 1 |
+| [PHOTOS/](PHOTOS/) | photographs of the module | 3 |
+| [KICAD/](KICAD/) | KiCad schematics traced from the drawings, the symbol, PCB projects | 2 |
 | [OCR/](OCR/) | the note of every file: date, origin, title block, OCR text | 7 |
 
 ## Photos
@@ -28,6 +27,15 @@ _Mechanical drawings: front panels, cover plates, metalwork and hardware (-03- d
 <table>
 <tr><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1hdFE6B2-hT-fXAUQkF3og65VXiOwJ65N/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1hdFE6B2-hT-fXAUQkF3og65VXiOwJ65N" width="240" alt="1989 - M7840 - DOC - 093047-04-001 - NOTE NOTE NORMALLED JACK PAIR NOTE CAMERA PRUGRAN.jpg"></a><br><sub>1989|22 · DOC - 093047-04-001 - NOTE NOTE NORMALLED JACK PAIR NOTE CAMERA PRUGRAN · <a href="MECHANICAL/1989%20-%20M7840%20-%20DOC%20-%20093047-04-001%20-%20NOTE%20NOTE%20NORMALLED%20JACK%20PAIR%20NOTE%20CAMERA%20PRUGRAN%20(EXTRACTED).svg">vectors</a></sub></td><td align="center" valign="top" width="33%"><a href="https://drive.google.com/file/d/1ZGr_ikfoF2Jgc5_zfbp96kto5yM1dhJL/view" title="Open on Google Drive"><img src="https://drive.google.com/thumbnail?sz=w480&id=1ZGr_ikfoF2Jgc5_zfbp96kto5yM1dhJL" width="240" alt="1996 - M7840 - DOC - 960163-04-002 - KEYPAD LAYOUI IISSUE REVSION.jpg"></a><br><sub>1996|29 · DOC - 960163-04-002 - KEYPAD LAYOUI IISSUE REVSION · <a href="MECHANICAL/1996%20-%20M7840%20-%20DOC%20-%20960163-04-002%20-%20KEYPAD%20LAYOUI%20IISSUE%20REVSION%20(EXTRACTED).svg">vectors</a></sub></td></tr>
 </table>
+
+## 3-D model
+
+[`MECHANICAL/M7840.stl`](MECHANICAL/M7840.stl) (GitHub turns it in 3-D) · [view, change and generate it on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/2026/stl.html?m=M7840)
+
+- **Size:** 41 × 178 mm panel, 165 mm deep, 3.2 mm plate (assumed: 1.6" x 7" x 6.5", the common module)
+- **From the drawing:** 0 holes and cut-outs, 0 knobs (front panel: `MECHANICAL/M7840 - front panel.svg`)
+- no drawing of the front panel: the panel is blank
+- Made by `tools/module_models.py` (→ `MECHANICAL/M7840.model.json`) and `tools/stl/make_stl.mjs` in [WBSps.ca](https://github.com/WardBeckSystems/WBSps.ca); the site makes the same STL from the same JSON.
 
 ## Schematics
 
@@ -51,7 +59,6 @@ _KiCad: a schematic (`.kicad_sch`) traced from each electrical drawing, the modu
 
 - [1994 - M7840 - DOC - 940145-01-001 - PROGRAM SOUND PROGRAM SOUND PROGRAM SOUND.kicad_sch](KICAD/1994%20-%20M7840%20-%20DOC%20-%20940145-01-001%20-%20PROGRAM%20SOUND%20PROGRAM%20SOUND%20PROGRAM%20SOUND.kicad_sch)
 - [M7840.kicad_sym](KICAD/M7840.kicad_sym)
-- [index.html](KICAD/index.html)
 
 ---
 Archive: Anthony Peter Kuzub · [WBSps.ca](https://WBSps.ca) · [WBSps.Kuzub.com](https://WBSps.Kuzub.com)
