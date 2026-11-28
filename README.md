@@ -1,6 +1,6 @@
 # M7840 Intercom Keypad · Communication
 
-Ward-Beck Systems M7840, 1989|22. Wiki page: [M7840 on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/PAGES/M7840.html)
+Ward-Beck Systems M7840, 1989|22. Wiki page: [M7840 on WBSps.ca](https://wardbecksystems.github.io/WBSps.ca/WBSps.ca/Github.WardBeckSystems/MODULES.COMMUNICATION.M7840-Intercom-Keypad/)
 
 | Folder | What is in it | Files |
 |---|---|---|
